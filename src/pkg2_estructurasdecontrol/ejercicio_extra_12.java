@@ -14,11 +14,15 @@ import static java.lang.System.console;
 public class ejercicio_extra_12 {
     public static void main(String[] args) {
         String impr, imp;
-        imp = "(";
         impr = "X-X-X";
         int a=0,b=0,c=0;
         System.out.println(impr);
         
+        imprimir(a,b,c);
+    }
+    
+    public static void imprimir(int a,int b,int c){
+        String imp;
         do{
             do{
                 do{
@@ -33,7 +37,5 @@ public class ejercicio_extra_12 {
             b=0;
             a++;
         }while(a<10);
-        
-        
     }
 }
